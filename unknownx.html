@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Financial Infrastructure</title>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #ff7e5f, #feb47b);
+      color: #333;
+      margin: 0;
+      padding: 20px;
+  }
+  
+  .header {
+      text-align: center;
+      padding: 20px;
+  }
+  
+  .header h1 {
+      font-size: 2.5em;
+      font-weight: bold;
+  }
+  
+  nav ul {
+      list-style: none;
+      padding: 0;
+  }
+  
+  nav ul li {
+      display: inline;
+      margin: 0 15px;
+  }
+  
+  nav ul li a {
+      text-decoration: none;
+      color: #fff;
+  }
+  
+  .main-content {
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .subscription-box {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      width: 45%;
+  }
+  
+  .subscription-box h2 {
+      margin: 0;
+  }
+  
+  .subscription-box form {
+      margin-top: 20px;
+  }
+  
+  .subscription-box input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+  }
+  
+  .subscription-box button {
+      background-color: #673ab7;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+  
+  .subscription-box button:hover {
+      background-color: #5e35b1;
+  }
+  
+  .analytics {
+      width: 45%;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+  }
+  
+  .analytics h3 {
+      margin: 0;
+  }
+  </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Financial infrastructure to grow your revenue</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Solutions</a></li>
+                <li><a href="#">Developers</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-content">
+        <div class="subscription-box">
+            <h2>Abstraction Magazine</h2>
+            <p>$19 per month</p>
+            <button>Pay with Apple Pay</button>
+            <form>
+                <input type="email" placeholder="Email" required>
+                <input type="text" placeholder="Card Number" required>
+                <input type="text" placeholder="MM/YY" required>
+                <input type="text" placeholder="CVC" required>
+                <input type="text" placeholder="Country or region" required>
+                <input type="text" placeholder="ZIP" required>
+                <button type="submit">Pay with card</button>
+            </form>
+        </div>
+        <div class="analytics">
+            <h3>Today</h3>
+            <p>Net volume: <strong>$3,528,198.72</strong></p>
+            <p>Yesterday: <strong>$2,931,165.00</strong></p>
+        </div>
+    </main>
+</body>
+</html>
